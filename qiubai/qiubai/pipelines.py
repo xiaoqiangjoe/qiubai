@@ -8,4 +8,7 @@
 
 class QiubaiPipeline(object):
     def process_item(self, item, spider):
+        print('111')
+        print(item['author'])
+        print(item['content'])
         return item
